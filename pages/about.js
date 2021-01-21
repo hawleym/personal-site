@@ -1,6 +1,6 @@
 import Nav from '../components/nav';
 
-export default function IndexPage() {
+export default function AboutPage() {
   return (
     <div>
       <Nav />
