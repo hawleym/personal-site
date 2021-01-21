@@ -1,4 +1,4 @@
-import Nav from '../components/nav'
+import Nav from '../components/nav';
 
 export default function IndexPage() {
   return (
@@ -16,5 +16,5 @@ export default function IndexPage() {
         </p>
       </div>
     </div>
-  )
+  );
 }

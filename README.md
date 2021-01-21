@@ -1,28 +1,43 @@
-# Tailwind CSS example
+# [Personal Website](https://hawleym.github.io/personal-site/)
 
-This example is a basic starting point for using [Tailwind CSS](https://tailwindcss.com) with Next.js.
+My personal website build with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com), and hosted on [github pages](https://pages.github.com/).
 
-## Deploy your own
+## Dependencies
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+Tested with: [node](https://nodejs.org/) v14 and optional [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) for managing node versions.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Set up
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+To download the repository and install dependencies, run the following commands:
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+git clone git://github.com/hawleym/personal-site.git
+cd personal-site
+nvm install # this is optional - make sure you're running node 14 with `node --version`
+npm install
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Running
+
+Run the following command to build the react application and serve it with fast refresh:
+
+```bash
+npm start
+```
+
+Navigate to `<ip>:<port>:<path>` default: [http://localhost:3000/personal-site](http://localhost:3000/personal-site).
+
+## Deploying
+
+### Deploying to Github Pages
+
+Modify the environmental variables and git remote url in [`.github/workflows/github-pages.yml`](.github/workflows/github-pages.yml).
+
+Make a commit to `main` and push your changes. That's it.
 
 ## Notes
 
-This example includes the following [PostCSS](https://github.com/postcss/postcss) plugins:
+This site includes the following [PostCSS](https://github.com/postcss/postcss) plugins:
 
 - [tailwindcss](https://tailwindcss.com) - utility-first CSS framework
 - [autoprefixer](https://github.com/postcss/autoprefixer) - plugin to parse CSS and add vendor prefixes to CSS rules using values from [Can I Use](https://caniuse.com).
