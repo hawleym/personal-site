@@ -4,7 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-1': '#333',
+        transparent: 'transparent',
+        current: 'currentColor',
+        sage: {
+          light: '#eof2d4',
+          DEFAULT: '#a9ba9d',
+          dark: '#2e3c25',
+        },
       },
     },
   },
