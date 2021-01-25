@@ -33,6 +33,13 @@ export default function Nav() {
               </a>
             </Link>
           </li>
+          <li>
+            <Link href="/music">
+              <a className="text-sage-dark hover:text-white px-3 py-2 rounded-md text-3sm font-medium">
+                Music
+              </a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
