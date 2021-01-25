@@ -11,7 +11,7 @@ export default function MousePage() {
       </div>
       <div>
         <img
-            src="/images/mouse1.jpg"
+            src="/images/mouse1.jpeg"
             alt="Cat on the couch"
         />
       </div>
