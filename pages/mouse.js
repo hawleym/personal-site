@@ -1,5 +1,4 @@
 import Nav from '../components/nav';
-import Image from 'next/image'
 
 export default function MousePage() {
   return (
@@ -11,11 +10,9 @@ export default function MousePage() {
         </h1>
       </div>
       <div>
-        <Image
+        <img
             src="/images/mouse1.jpg"
             alt="Cat on the couch"
-            width={700}
-            height={933}
         />
       </div>
     </div>
