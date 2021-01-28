@@ -12,56 +12,56 @@ export default function ArtPage() {
       <div className="grid gap-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 object-center pl-4 pr-4">
        <div>
             <img
-                src="/personal-site/images/art12.jpg"
+                src="/images/art12.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/personal-site/images/art11.jpg"
+                src="/images/art11.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/personal-site/images/art10.jpg"
+                src="/images/art10.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/personal-site/images/art9.jpg"
+                src="/images/art9.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/personal-site/images/art8.jpg"
+                src="/images/art8.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/personal-site/images/art3.jpg"
+                src="/images/art3.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/personal-site/images/art4.jpg"
+                src="/images/art4.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/personal-site/images/art5.jpg"
+                src="/images/art5.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />

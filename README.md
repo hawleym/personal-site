@@ -1,4 +1,4 @@
-# [Personal Website](https://hawleym.github.io/personal-site/)
+# [Personal Website](https://hawleymoore.com/)
 
 My personal website build with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com), and hosted on [github pages](https://pages.github.com/).
 
@@ -25,7 +25,7 @@ Run the following command to build the react application and serve it with fast 
 npm start
 ```
 
-Navigate to `<ip>:<port>:<path>` default: [http://localhost:3000/personal-site](http://localhost:3000/personal-site).
+Navigate to `<ip>:<port>:<path>` default: [http://localhost:3000/](http://localhost:3000/).
 
 ## Deploying
 

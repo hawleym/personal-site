@@ -12,21 +12,21 @@ export default function MousePage() {
       <div className="grid gap-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 object-center pl-4 pr-4">
         <div>
             <img
-                src="/personal-site/images/mouse1.jpg"
+                src="/images/mouse1.jpg"
                 alt="Cat on the couch"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/personal-site/images/mouse2.jpeg"
+                src="/images/mouse2.jpeg"
                 alt="Sleeping Cat"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/personal-site/images/mouse3.jpeg"
+                src="/images/mouse3.jpeg"
                 alt="Cat"
                 width="100%"
             />
