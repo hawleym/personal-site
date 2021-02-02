@@ -12,70 +12,70 @@ export default function ArtPage() {
       <div className="grid gap-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 object-center pl-4 pr-4">
       <div className="col-span-3">
             <img
-                src="/images/art11.jpg"
+                src="/images/art/11.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
        <div className="row-span-2">
             <img
-                src="/images/art12.jpg"
+                src="/images/art/12.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div className="col-span-2">
             <img
-                src="/images/art9.jpg"
+                src="/images/art/9.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/images/art2.jpg"
+                src="/images/art/2.jpg"
                 alt="Blue Hands"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/images/art8.jpg"
+                src="/images/art/8.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/images/art10.jpg"
+                src="/images/art/10.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/images/art3.jpg"
+                src="/images/art/3.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/images/art4.jpg"
+                src="/images/art/4.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/images/art5.jpg"
+                src="/images/art/5.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />
         </div>
         <div>
             <img
-                src="/images/art1.jpg"
+                src="/images/art/1.jpg"
                 alt="Five works by Hawley Moore on a Wall"
                 width="100%"
             />

@@ -7,7 +7,7 @@ export default function IndexPage() {
       <div className="pt-16">
         <div className="sm:pt-3 pt-1">
           <img
-            src="/images/art1.jpg"
+            src="/images/art/1.jpg"
             alt="Five works by Hawley Moore on a Wall"
             width="100%"
           />
