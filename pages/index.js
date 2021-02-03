@@ -1,18 +1,20 @@
+import { NextSeo } from 'next-seo';
 import Nav from '../components/nav';
 
 export default function IndexPage() {
   return (
-    <div>
-      <Nav />
-      <div className="pt-16">
-        <div className="sm:pt-3 pt-1">
-          <img
-            src="/images/art/1.jpg"
-            alt="Five works by Hawley Moore on a Wall"
-            width="100%"
-          />
-        </div>
+    <>
+    <NextSeo
+      title="Hawley Moore"
+      description="Hawley Moore is a Data Analyst and Artist, currently living in New York."
+    />
+    <Nav />
+    <div className="pt-16">
+      <div className="mt-1 sm:mt-3 h-screen bg-no-repeat bg-contain"
+          style={{ backgroundImage: `url(/images/art/1.jpg)` }}
+      >
       </div>
     </div>
+    </>
   );
 }
