@@ -81,6 +81,14 @@ export default function ArtPage() {
           I largely paint with a combination of acylics and oils. Sometimes I
           like making sculptures out of plaster casts of my own hands.
         </h1>
+        <h1 className="text-xl text-center text-gray-500 pt-5">
+          I accept commissions. If you would like some of my art, please
+          email{' '}
+          <a 
+            href="mailto:I-really-like-your-art-please-sell-me-some-of-your-art@hawleymoore.com"
+            className="text-blue-500 hover:font-semibold"  
+          >i-really-like-your-art-please-sell-me-some-of-your-art@hawleymoore.com</a>.
+        </h1>
       </div>
       <div className="container mx-auto py-8">
         <div className="grid grid-cols-6 gap-4 justify-items-stretch place-content-center">
