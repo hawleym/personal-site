@@ -77,7 +77,7 @@ export default function ArtPage() {
     <div>
       <Nav />
       <div className="py-10">
-        <h1 className="text-xl text-center text-gray-500 pt-20">
+        <h1 className="text-xl text-center text-gray-500 pt-20 mx-10">
           I largely paint with a combination of acylics and oils, and occasionally make sculptures out of plaster casts of my own hands.
         </h1>
         <h1 className="text-xl text-center text-gray-500 pt-3">
