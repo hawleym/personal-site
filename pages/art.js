@@ -8,29 +8,29 @@ const images = [
   },
   {
     path: 12,
-    description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
+    description: 'Untitled, 2019. Oil and Acrylic on Wood.',
     y: 4,
   },
   {
     path: 9,
-    description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
+    description: 'Untitled, 2019. Oil and Acrylic on Wood.',
     x: 4,
   },
   {
     path: 2,
-    description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
+    description: 'Untitled, 2019. Oil and Acrylic on Wood.',
   },
   {
     path: 8,
-    description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
+    description: 'Untitled, 2019. Acrylic on Wood.',
   },
   {
     path: 7,
-    description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
+    description: 'Untitled, 2019. Plaster and Acrylic.',
   },
   {
     path: 3,
-    description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
+    description: 'Untitled, 2019. Oil and Acrylic on Wood.',
   },
   {
     path: 4,
@@ -64,9 +64,11 @@ const displayImage = (props) => (
     } w-full h-96 min-h-full bg-cover bg-center flex-grow`}
     style={{ backgroundImage: `url(/images/art/${props.path}.jpg)` }}
   >
-    <a href={`/images/art/${props.path}.jpg`} title={props.description}>
-      {props.description}
-    </a>
+    <div className="opacity-0 hover:opacity-100 w-full h-full bg-white bg-opacity-50">
+        <a href={`/images/art/${props.path}.jpg`} title={props.description}>
+        {props.description}
+        </a>
+    </div>
   </div>
 );
 
