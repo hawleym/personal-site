@@ -14,30 +14,22 @@ export default function Nav() {
           </li>
           <li className="sm:pt-2 pt-1">
             <Link href="/about">
-              <a className="px-3 rounded-md hover:text-white">
-                About
-              </a>
+              <a className="px-3 rounded-md hover:text-white">About</a>
             </Link>
           </li>
           <li className="sm:pt-2 pt-1">
             <Link href="/art">
-              <a className="px-3 rounded-md hover:text-white">
-                Art
-              </a>
-           </Link>
+              <a className="px-3 rounded-md hover:text-white">Art</a>
+            </Link>
           </li>
           <li className="sm:pt-2 pt-1">
             <Link href="/music">
-              <a className="px-3 rounded-md hover:text-white">
-                Music
-              </a>
+              <a className="px-3 rounded-md hover:text-white">Music</a>
             </Link>
           </li>
           <li className="sm:pt-2 pt-1">
             <Link href="/contact">
-              <a className="px-3 rounded-md hover:text-white">
-                Contact
-              </a>
+              <a className="px-3 rounded-md hover:text-white">Contact</a>
             </Link>
           </li>
         </ul>

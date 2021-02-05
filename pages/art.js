@@ -65,9 +65,9 @@ const displayImage = (props) => (
     style={{ backgroundImage: `url(/images/art/${props.path}.jpg)` }}
   >
     <div className="opacity-0 hover:opacity-100 w-full h-full bg-white bg-opacity-50">
-        <a href={`/images/art/${props.path}.jpg`} title={props.description}>
+      <a href={`/images/art/${props.path}.jpg`} title={props.description}>
         {props.description}
-        </a>
+      </a>
     </div>
   </div>
 );
@@ -82,12 +82,14 @@ export default function ArtPage() {
           like making sculptures out of plaster casts of my own hands.
         </h1>
         <h1 className="text-xl text-center text-gray-500 pt-5">
-          I accept commissions. If you would like some of my art, please
-          email{' '}
-          <a 
+          I accept commissions. If you would like some of my art, please email{' '}
+          <a
             href="mailto:I-really-like-your-art-please-sell-me-some-of-your-art@hawleymoore.com"
-            className="text-blue-500 hover:font-semibold"  
-          >i-really-like-your-art-please-sell-me-some-of-your-art@hawleymoore.com</a>.
+            className="text-blue-500 hover:font-semibold"
+          >
+            i-really-like-your-art-please-sell-me-some-of-your-art@hawleymoore.com
+          </a>
+          .
         </h1>
       </div>
       <div className="container mx-auto py-8">
