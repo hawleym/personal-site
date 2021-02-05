@@ -34,22 +34,22 @@ const images = [
   },
   {
     path: 4,
-    description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
+    description: 'Untitled, 2019. Plaster and Acrylic.',
   },
   {
     path: 5,
-    description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
-    x: 'row-span-3',
+    description: 'Gallery view of senior thesis show by Hawley Moore.',
+    x: 'col-span-3',
   },
   {
     path: 10,
-    description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
-    x: 'row-span-3',
+    description: 'Gallery view of senior thesis show by Hawley Moore',
+    x: 'col-span-3',
   },
   {
     path: 1,
-    description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
-    x: 'row-span-4',
+    description: 'Gallery view of senior thesis show by Hawley Moore',
+    x: 'col-span-4',
   },
   {
     path: 6,
@@ -78,16 +78,15 @@ export default function ArtPage() {
       <Nav />
       <div className="py-10">
         <h1 className="text-xl text-center text-gray-500 pt-20">
-          I largely paint with a combination of acylics and oils. Sometimes I
-          like making sculptures out of plaster casts of my own hands.
+          I largely paint with a combination of acylics and oils, and occasionally make sculptures out of plaster casts of my own hands.
         </h1>
-        <h1 className="text-xl text-center text-gray-500 pt-5">
+        <h1 className="text-xl text-center text-gray-500 pt-3">
           I accept commissions. If you would like some of my art, please email{' '}
           <a
-            href="mailto:I-really-like-your-art-please-sell-me-some-of-your-art@hawleymoore.com"
+            href="mailto:art@hawleymoore.com"
             className="text-blue-500 hover:font-semibold"
           >
-            i-really-like-your-art-please-sell-me-some-of-your-art@hawleymoore.com
+            art@hawleymoore.com
           </a>
           .
         </h1>
