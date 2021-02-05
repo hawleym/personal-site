@@ -4,17 +4,17 @@ const images = [
   {
     path: 11,
     description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
-    x: 6,
+    x: 'col-span-6',
   },
   {
     path: 12,
     description: 'Untitled, 2019. Oil and Acrylic on Wood.',
-    y: 4,
+    y: 'row-span-4',
   },
   {
     path: 9,
     description: 'Untitled, 2019. Oil and Acrylic on Wood.',
-    x: 4,
+    x: 'col-span-4',
   },
   {
     path: 2,
@@ -39,17 +39,17 @@ const images = [
   {
     path: 5,
     description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
-    x: 3,
+    x: 'row-span-3',
   },
   {
     path: 10,
     description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
-    x: 3,
+    x: 'row-span-3',
   },
   {
     path: 1,
     description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
-    x: 4,
+    x: 'row-span-4',
   },
   {
     path: 6,
@@ -59,8 +59,8 @@ const images = [
 
 const displayImage = (props) => (
   <div
-    className={`row-span-${props.y || 2} col-span-${
-      props.x || 2
+    className={`${props.y || 'row-span-2'} ${
+      props.x || 'col-span-2'
     } w-full h-96 min-h-full bg-cover bg-center flex-grow`}
     style={{ backgroundImage: `url(/images/art/${props.path}.jpg)` }}
   >
