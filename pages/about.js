@@ -15,7 +15,8 @@ export default function AboutPage() {
         <p className="text-l mx-14 text-gray-900">
           Hi, I'm Hawley. I am a Data Analyst and Artist, currently living in
           New York. I love learning new things and find fulfillment in creating
-          with what I've learned.
+          with what I've learned. Please note, this page is currently under construction
+          and will soon contain even more about who I am.
         </p>
         <h3 className="pt-6 text-xl text-center text-gray-700">EDUCATION</h3>
         <p className="text-l mx-14 text-gray-900"> 
