@@ -11,7 +11,7 @@ export default function IndexPage() {
       <Nav />
       <div className="pt-16">
         <div
-          className="mt-1 sm:mt-3 h-screen bg-no-repeat bg-cover"
+          className="mt-1 sm:mt-3 h-screen bg-no-repeat sm:bg-cover bg-contain"
           style={{ backgroundImage: `url(/images/art/1.jpg)` }}
         />
       </div>

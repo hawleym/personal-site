@@ -4,17 +4,17 @@ const images = [
   {
     path: 11,
     description: 'Untitled, 2019. Plaster and Acrylic on Wood.',
-    x: 'col-span-6',
+    x: 'sm:col-span-6',
   },
   {
     path: 12,
     description: 'Untitled, 2019. Oil and Acrylic on Wood.',
-    y: 'row-span-4',
+    y: 'sm:row-span-4',
   },
   {
     path: 9,
     description: 'Untitled, 2019. Oil and Acrylic on Wood.',
-    x: 'col-span-4',
+    x: 'sm:col-span-4',
   },
   {
     path: 2,
@@ -39,17 +39,17 @@ const images = [
   {
     path: 5,
     description: 'Gallery view of senior thesis show by Hawley Moore.',
-    x: 'col-span-3',
+    x: 'sm:col-span-3',
   },
   {
     path: 10,
     description: 'Gallery view of senior thesis show by Hawley Moore',
-    x: 'col-span-3',
+    x: 'sm:col-span-3',
   },
   {
     path: 1,
     description: 'Gallery view of senior thesis show by Hawley Moore',
-    x: 'col-span-4',
+    x: 'sm:col-span-4',
   },
   {
     path: 6,
@@ -59,12 +59,12 @@ const images = [
 
 const displayImage = (props) => (
   <div
-    className={`${props.y || 'row-span-2'} ${
-      props.x || 'col-span-2'
-    } w-full h-96 min-h-full bg-cover bg-center flex-grow`}
-    style={{ backgroundImage: `url(/images/art/${props.path}.jpg)` }}
+    className={`${props.y || 'sm:row-span-2'} ${
+      props.x || 'sm:col-span-2'
+    } relative`}
   >
-    <div className="opacity-0 hover:opacity-100 w-full h-full bg-white bg-opacity-50">
+    <img className="w-full" width="100%" src={`/images/art/${props.path}.jpg`}></img>
+    <div className="opacity-0 hover:opacity-100 bg-white bg-opacity-50 absolute m-auto w-full h-full top-0 left-0">
       <a href={`/images/art/${props.path}.jpg`} title={props.description}>
         {props.description}
       </a>
@@ -92,7 +92,7 @@ export default function ArtPage() {
         </h1>
       </div>
       <div className="container mx-auto py-8">
-        <div className="grid grid-cols-6 gap-4 justify-items-stretch place-content-center">
+        <div className="grid grid-cols-1 sm:grid-cols-6 gap-4 justify-items-stretch place-content-center">
           {images.map(displayImage)}
         </div>
       </div>
