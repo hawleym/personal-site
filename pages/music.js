@@ -55,7 +55,7 @@ export default function MusicPage() {
       <Nav />
       <div className="py-10">
         <h1 className="text-2xl text-center text-gray-500 pt-20 mx-10">
-          I love listening to music and have fung making playlists 
+          I love listening to music and have fun making playlists 
           for the enjoyment of myself and others. Here are some of my personal 
           favorites. I hope you like them!
         </h1>
