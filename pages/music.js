@@ -2,6 +2,22 @@ import Nav from '../components/nav';
 
 const playlists = [
   {
+    title: 'evergreen',
+    src: 'https://open.spotify.com/embed/playlist/0oPXGmDixzBPiwb2icGcjD',
+  },
+  {
+    title: 'took a fat L(earning experience)',
+    src: 'https://open.spotify.com/embed/playlist/4D0ra63q1s3g6MBp4r94By'
+  },
+  {
+    title: 'clementine',
+    src: 'https://open.spotify.com/embed/playlist/6S79VsiQkS96T1kpgvnaiZ'
+  },
+  {
+    title: 'it could be worse, you could have scurvy',
+    src: 'https://open.spotify.com/embed/playlist/07aGGBr2tBXK7C9eHzc77F'
+  },
+  {
     title: 'kitchen limbo',
     src: 'https://open.spotify.com/embed/playlist/322AJJWNX7rBufEIboSVQq',
   },

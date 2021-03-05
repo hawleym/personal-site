@@ -13,10 +13,16 @@ export default function AboutPage() {
         <h1 className="pt-10 text-5xl text-center text-gray-700">ABOUT ME</h1>
         <h3 className="pt-10 text-xl text-center text-gray-700">INTRO</h3>
         <p className="text-l mx-14 text-gray-900">
-          Hi, I'm Hawley. I am a Data Analyst and Artist, currently living in
+          Hi, I'm Hawley. I am an Analyst and Artist, currently living in
           New York. I love learning new things and find fulfillment in creating
-          with what I've learned. Please note, this page is currently under construction
-          and will soon contain even more about who I am.
+          with what I've learned. 
+        </p>
+        <h3 className="pt-10 text-xl text-center text-gray-700">CURRENTLY</h3>
+        <p className="text-l mx-14 text-gray-900">
+          Currently, I work as a Data Analyst at Arthena where my promary responsibilities 
+          include managing and maintaining data integrity within internal databases
+          and analyzing market data to create investor reports on market trends and 
+          inform product decisions.
         </p>
         <h3 className="pt-6 text-xl text-center text-gray-700">EDUCATION</h3>
         <p className="text-l mx-14 text-gray-900"> 
@@ -32,7 +38,8 @@ export default function AboutPage() {
         <h3 className="pt-6 text-xl text-center text-gray-700">INTERESTS</h3>
         <p className="text-l mx-14 text-gray-900"> 
           There are a lot of things I like to fill my time with. Some of these are the following: yoga, 
-          running, knitting, reading, painting, baking, biking, skiing, rollerblading, music, and working on this website.
+          running, knitting, reading, painting, baking, biking, skiing, rollerblading, and listening to music. 
+          I'd like to get better at rock climbing and think it would be really cool to learn how to make rugs.
         </p>
        </div>
     </div>
