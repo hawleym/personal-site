@@ -71,9 +71,8 @@ export default function MusicPage() {
       <Nav />
       <div className="py-10">
         <h1 className="text-2xl text-center text-gray-500 pt-20 mx-10">
-          I love listening to music and have fun making playlists 
-          for the enjoyment of myself and others. Here are some of my personal 
-          favorites. I hope you like them!
+          I spend a lot of time making playlists. 
+          The best ones have mildly unhinged titles.
         </h1>
       </div>
       <ul className="grid gap-3 md:grid-cols-4 sm:grid-cols-3 grid-cols-1 object-center pl-4 pr-4">
